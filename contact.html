@@ -4,36 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Muhardian Personal Website</title>
+    <title>Nastriana Personal Website</title>
+    <style>
+        label {
+            color: #0066cc; /* biru */
+            font-weight: bold;
+        }
+
+        input, textarea{
+            margin-bottom: 15px;
+            width: 100%;
+            max-width: 500px;
+            padding: 8px;
+        }
+        
+        input[type="submit"] {
+            width: auto;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+       
+       
+    </style>
+    <link rel="stylesheet" type="text/CSS" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="cv-dian.pdf">Download CV</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="about.html">About me</a>
-    </nav>
+    <nav class="nav">
+        <a href="index.html" >Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Me</a>
+        <a href="cv.html">Download CV</a>
+        
+     </nav>
 
     <hr />
+    <article style="text-align: center;">
+        <body style="background-image: url(images/images.bgrn.jpg);background-size: cover;">
+        
 
     <div>
         <h1>Contact Me</h1>
         <form>
+            
+        <form>
             <label for="email">Email</label><br />
-            <input type="email" name="email" placeholder="alamat email"/>
+            <input type="text" name="email" placeholder="alamat email"/>
             <br />
             <label for="message">Pesan</label><br />
             <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
             <br />
             <br />
-            <input type="submit" value="Kirim" />
+            <input type="submit" value="Kirim" /><br></br>
+
+            <h3>Atau hubungi saya melalui WhatsApp:</h3>
+            <a href="https://wa.me/6281250503329" target="_blank" style="font-size:20px; font-weight:bold; color: black;">
+                <p style="color: #25D366;">Hubungi via WhatsApp</p>
+                
+            
         </form>
     </div>
 
     <hr>
     <footer style="text-align: center;">
-        <p>Copyright &copy; 2025 John Doe.</p>
+        <p style="color: blue; font-weight: bold;">
+            Copyright &copy; 2025 Nastriana.
+          </p>
+
     </footer>
 </body>
 </html>
+
